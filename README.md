@@ -12,3 +12,7 @@
 [![Homepage](https://img.shields.io/badge/Homepage-kafei520--cn.github.io-A67C52?style=flat-square)](https://kafei520-cn.github.io)
 
 </div>
+
+<div align="center">
+  <img src="assets/123.png" alt="" width="100%">
+</div>

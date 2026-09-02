@@ -72,12 +72,7 @@ Minecraft 城市与 NPC 生活模拟模组。建城、圈地、雇市民，把�
 ## GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kafei520-CN&show_icons=true&theme=default&bg_color=FAF4EC&title_color=6B3F24&text_color=3C2415&icon_color=8B5A32&hide_border=true" alt="stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kafei520-CN&layout=compact&bg_color=FAF4EC&title_color=6B3F24&text_color=3C2415&hide_border=true" alt="languages" height="160">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kafei520-CN&background=FAF4EC&ring=8B5A32&fire=6B3F24&currStreakLabel=6B3F24&sideLabels=3C2415&dates=7A5640&stroke=E8D5C0&border=E8D5C0" alt="streak">
+  <img src="assets/github-stats.png" alt="GitHub 数据" width="920">
 </p>
 
 ---

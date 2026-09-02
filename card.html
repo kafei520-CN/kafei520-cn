@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>kafei520-CN</title>
+  <style>
+    @font-face {
+      font-family: "Cascadia";
+      src: local("Cascadia Code"), local("Cascadia Mono"), url("C:/Windows/Fonts/CascadiaCode.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "YaHei";
+      src: local("Microsoft YaHei"), url("C:/Windows/Fonts/msyh.ttc") format("truetype");
+    }
+    @font-face {
+      font-family: "YaHeiBold";
+      src: local("Microsoft YaHei Bold"), url("C:/Windows/Fonts/msyhbd.ttc") format("truetype");
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 1600px;
+      height: 640px;
+      overflow: hidden;
+      background: #f7f1e8;
+      color: #3c2415;
+      font-family: "YaHei", "Segoe UI", sans-serif;
+    }
+
+    .stage {
+      position: relative;
+      width: 1600px;
+      height: 640px;
+      overflow: hidden;
+      background: #f7f1e8;
+    }
+
+    .bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 100% 50%;
+    }
+
+    .wash {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        #f7f1e8 0%,
+        rgba(247, 241, 232, 0.94) 42%,
+        rgba(247, 241, 232, 0.35) 62%,
+        rgba(247, 241, 232, 0) 78%
+      );
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      gap: 32px;
+      padding: 64px 56px 52px;
+      width: 980px;
+      height: 640px;
+    }
+
+    .avatar {
+      width: 112px;
+      height: 112px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #f7f1e8;
+      box-shadow: 0 0 0 3px #8b5a32;
+      flex-shrink: 0;
+    }
+
+    .main { padding-top: 2px; }
+
+    .kicker {
+      font-family: "Cascadia", "Consolas", monospace;
+      font-size: 13px;
+      letter-spacing: 0.28em;
+      color: #8b5a32;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-family: "Cascadia", "Consolas", monospace;
+      font-size: 52px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      line-height: 1;
+      color: #3c2415;
+    }
+
+    .aka {
+      margin-top: 14px;
+      font-family: "YaHeiBold", "YaHei", sans-serif;
+      font-size: 28px;
+      color: #6b3f24;
+      letter-spacing: 0.28em;
+    }
+
+    .role {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #7a5640;
+    }
+
+    .blurb {
+      margin-top: 16px;
+      max-width: 620px;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #6a4a36;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 28px;
+      width: 720px;
+    }
+
+    .proj {
+      padding: 14px 16px 13px;
+      border-radius: 14px;
+      background: rgba(255, 250, 243, 0.72);
+      border: 1px solid rgba(139, 90, 50, 0.18);
+      box-shadow: inset 3px 0 0 #8b5a32;
+    }
+
+    .proj .tag {
+      font-family: "Cascadia", "Consolas", monospace;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      color: #8b5a32;
+    }
+
+    .proj strong {
+      display: block;
+      margin-top: 6px;
+      font-family: "YaHeiBold", "YaHei", sans-serif;
+      font-size: 16px;
+      color: #3c2415;
+    }
+
+    .proj em {
+      display: block;
+      margin-top: 4px;
+      font-style: normal;
+      font-size: 13px;
+      color: #7a5640;
+    }
+
+    .foot {
+      position: absolute;
+      left: 200px;
+      right: 56px;
+      bottom: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 720px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(139, 90, 50, 0.22);
+      font-family: "Cascadia", "Consolas", monospace;
+      font-size: 14px;
+      color: #7a5640;
+    }
+
+    .foot b { color: #6b3f24; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <img class="bg" src="assets/cup-wide.jpg" alt="">
+    <div class="wash"></div>
+
+    <div class="content">
+      <img class="avatar" src="assets/avatar.jpg" alt="kafei520-CN">
+      <div class="main">
+        <div class="kicker">Minecraft Mod Developer</div>
+        <h1>kafei520-CN</h1>
+        <div class="aka">咖啡</div>
+        <div class="role">模组 · 寻路 · 混淆</div>
+        <p class="blurb">在方块世界里造城市，给 NPC 找路，也做 Java 混淆。NeoForge / Java 开发者。</p>
+
+        <div class="projects">
+          <div class="proj">
+            <div class="tag">CITY SIM</div>
+            <strong>New: Sim-U-Kraft</strong>
+            <em>新模拟大都市</em>
+          </div>
+          <div class="proj">
+            <div class="tag">OBFUSCATOR</div>
+            <strong>Kafuscator</strong>
+            <em>Java 混淆器</em>
+          </div>
+          <div class="proj">
+            <div class="tag">PATHFINDING</div>
+            <strong>iPath</strong>
+            <em>异步寻路库</em>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <span>github.com/<b>kafei520-CN</b></span>
+      <span>EST. 2024</span>
+    </div>
+  </div>
+</body>
+</html>

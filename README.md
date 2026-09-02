@@ -1,16 +1,89 @@
-## Hi there 👋
+<div align="center">
+  <img src="assets/banner.png" alt="kafei520-CN · 咖啡" width="100%">
+</div>
 
-<!--
-**kafei520-CN/kafei520-CN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+<div align="center">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**咖啡** · Minecraft 模组 / Java 工具开发者
+
+在方块世界里造城市，给 NPC 找路，也做混淆。
+
+[![GitHub](https://img.shields.io/badge/GitHub-kafei520--CN-6B3F24?style=flat-square&logo=github&logoColor=white)](https://github.com/kafei520-CN)
+[![Bilibili](https://img.shields.io/badge/Bilibili-咖啡-8B5A32?style=flat-square&logo=bilibili&logoColor=white)](https://space.bilibili.com/566289712)
+[![Pages](https://img.shields.io/badge/Homepage-kafei520--cn.github.io-A67C52?style=flat-square)](https://kafei520-cn.github.io)
+
+</div>
+
+---
+
+## 代表作
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### [New: Sim-U-Kraft](https://github.com/New-Sim-U-Kraft/New-Simukraft-1.21.1)
+**新模拟大都市**
+
+Minecraft 城市与 NPC 生活模拟模组。建城、圈地、雇市民，把一座小镇做成能运转的都市。
+
+`NeoForge 1.21.1` · `Forge 1.20.1`
+
+</td>
+<td width="33%" valign="top">
+
+### [Kafuscator](https://github.com/kafei520-CN/Kafuscator)
+**Java 混淆器**
+
+面向 Java 字节码的混淆工具，用来保护模组与程序。
+
+`Java` · `ASM`
+
+</td>
+<td width="33%" valign="top">
+
+### [iPath](https://github.com/kafei520-CN/iPath)
+**异步寻路库**
+
+给 Minecraft 模组用的异步 A* 寻路：世界快照、路径搜索、实体走线分层。
+
+`NeoForge` · `A*`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 技术栈
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,js,ts,python,kotlin,cs,gradle,github" alt="skills">
+</p>
+
+<p align="center">
+  Java · NeoForge · Forge · Mixin · Gradle · JavaScript · TypeScript
+</p>
+
+---
+
+## GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kafei520-CN&show_icons=true&theme=default&bg_color=FAF4EC&title_color=6B3F24&text_color=3C2415&icon_color=8B5A32&hide_border=true" alt="stats" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kafei520-CN&layout=compact&bg_color=FAF4EC&title_color=6B3F24&text_color=3C2415&hide_border=true" alt="languages" height="160">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kafei520-CN&background=FAF4EC&ring=8B5A32&fire=6B3F24&currStreakLabel=6B3F24&sideLabels=3C2415&dates=7A5640&stroke=E8D5C0&border=E8D5C0" alt="streak">
+</p>
+
+---
+
+<div align="center">
+
+[主页](https://kafei520-cn.github.io) · [Bilibili](https://space.bilibili.com/566289712) · [GitHub](https://github.com/kafei520-CN)
+
+</div>

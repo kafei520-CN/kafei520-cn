@@ -68,17 +68,3 @@ Minecraft 城市与 NPC 生活模拟模组。建城、圈地、雇市民，把�
 </p>
 
 ---
-
-## GitHub
-
-<p align="center">
-  <img src="assets/github-stats.png" alt="GitHub 数据" width="920">
-</p>
-
----
-
-<div align="center">
-
-[主页](https://kafei520-cn.github.io) · [Bilibili](https://space.bilibili.com/566289712) · [GitHub](https://github.com/kafei520-CN)
-
-</div>
